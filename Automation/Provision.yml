@@ -1,0 +1,12 @@
+---
+- name: Provision Inkscape Playground
+  hosts: inkscape
+  sudo: yes
+  user: root
+  roles:
+    - role: BashEnvironment
+      users:
+        - { homedir: "{{ homedir }}", user: "{{ user }}" }
+    - XAuth
+    - GtkTheme
+    - Inkscape

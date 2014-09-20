@@ -1,0 +1,20 @@
+{
+    "minimum-stability": "dev",
+
+    "repositories": [
+        {
+            "packagist": false
+        },
+        {
+            "type": "composer",
+            "url": "http://qafoogalaxy.github.io"
+        }
+    ],
+
+    "require": {
+        "qafoogalaxy/bashenvironment": "dev-master",
+        "qafoogalaxy/xauth": "dev-master",
+        "qafoogalaxy/gtktheme": "dev-master",
+        "qafoogalaxy/inkscape": "dev-master"
+    }
+}

@@ -1,0 +1,184 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "0534ec1ad7d65c39669973b34b515eff",
+    "packages": [
+        {
+            "name": "qafoogalaxy/BashEnvironment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QafooGalaxy/BashEnvironment.git",
+                "reference": "8d00d7e783cebaf2da36d6c2162c7552ec2c5251"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QafooGalaxy/BashEnvironment/zipball/8d00d7e783cebaf2da36d6c2162c7552ec2c5251",
+                "reference": "8d00d7e783cebaf2da36d6c2162c7552ec2c5251",
+                "shasum": ""
+            },
+            "require": {
+                "qafoogalaxy/installer": "dev-master"
+            },
+            "type": "ansible-role",
+            "support": {
+                "source": "https://github.com/QafooGalaxy/BashEnvironment/tree/master",
+                "issues": "https://github.com/QafooGalaxy/BashEnvironment/issues"
+            },
+            "time": "2014-09-20 14:38:54"
+        },
+        {
+            "name": "qafoogalaxy/GtkTheme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QafooGalaxy/GtkTheme.git",
+                "reference": "1c5acd84102d71983c6ae267125431d089bc7779"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QafooGalaxy/GtkTheme/zipball/1c5acd84102d71983c6ae267125431d089bc7779",
+                "reference": "1c5acd84102d71983c6ae267125431d089bc7779",
+                "shasum": ""
+            },
+            "require": {
+                "qafoogalaxy/installer": "dev-master"
+            },
+            "type": "ansible-role",
+            "support": {
+                "source": "https://github.com/QafooGalaxy/GtkTheme/tree/master",
+                "issues": "https://github.com/QafooGalaxy/GtkTheme/issues"
+            },
+            "time": "2014-09-20 14:02:08"
+        },
+        {
+            "name": "qafoogalaxy/Inkscape",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QafooGalaxy/Inkscape.git",
+                "reference": "33a193ce0daa64fd323890ac5402098b217612de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QafooGalaxy/Inkscape/zipball/33a193ce0daa64fd323890ac5402098b217612de",
+                "reference": "33a193ce0daa64fd323890ac5402098b217612de",
+                "shasum": ""
+            },
+            "require": {
+                "qafoogalaxy/installer": "dev-master"
+            },
+            "type": "ansible-role",
+            "support": {
+                "source": "https://github.com/QafooGalaxy/Inkscape/tree/master",
+                "issues": "https://github.com/QafooGalaxy/Inkscape/issues"
+            },
+            "time": "2014-09-20 14:02:13"
+        },
+        {
+            "name": "qafoogalaxy/XAuth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QafooGalaxy/XAuth.git",
+                "reference": "e3d0aa0cca30dc963b55f982d90f89e26c83147f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QafooGalaxy/XAuth/zipball/e3d0aa0cca30dc963b55f982d90f89e26c83147f",
+                "reference": "e3d0aa0cca30dc963b55f982d90f89e26c83147f",
+                "shasum": ""
+            },
+            "require": {
+                "qafoogalaxy/installer": "dev-master"
+            },
+            "type": "ansible-role",
+            "support": {
+                "source": "https://github.com/QafooGalaxy/XAuth/tree/master",
+                "issues": "https://github.com/QafooGalaxy/XAuth/issues"
+            },
+            "time": "2014-09-20 14:03:10"
+        },
+        {
+            "name": "qafoogalaxy/installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QafooGalaxy/installer.git",
+                "reference": "966e83aa717cee710bd3c06f2191dccfc67f8c6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QafooGalaxy/installer/zipball/966e83aa717cee710bd3c06f2191dccfc67f8c6e",
+                "reference": "966e83aa717cee710bd3c06f2191dccfc67f8c6e",
+                "shasum": ""
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "QafooLabs\\Composer\\AnsibleInstaller"
+            },
+            "autoload": {
+                "psr-0": {
+                    "QafooLabs\\Composer\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                },
+                {
+                    "name": "Jakob Westhoff",
+                    "email": "jakob@qafoo.com",
+                    "homepage": "https://github.com/jakobwesthoff"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "benjamin@qafoo.com",
+                    "homepage": "https://github.com/beberlei"
+                }
+            ],
+            "description": "Installer for ansible roles",
+            "keywords": [
+                "ansible",
+                "installer"
+            ],
+            "support": {
+                "source": "https://github.com/QafooGalaxy/installer/tree/master",
+                "issues": "https://github.com/QafooGalaxy/installer/issues"
+            },
+            "time": "2014-08-24 17:44:41"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "qafoogalaxy/bashenvironment": 20,
+        "qafoogalaxy/xauth": 20,
+        "qafoogalaxy/gtktheme": 20,
+        "qafoogalaxy/inkscape": 20
+    },
+    "prefer-stable": false,
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
